@@ -6,3 +6,5 @@ Docker version 1.12.6, build 88a4867/1.12.6
 升级后的
 Docker version 1.12.6, build ec8512b/1.12.6
 此版本各种问题，其他镜像运行也是如此，有必要自己定制编译docker
+Connection reset by peer
+有必要通过COPY 命令复制进去。
