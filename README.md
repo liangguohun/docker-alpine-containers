@@ -5,6 +5,6 @@
 ## 目前存在的镜像
 <p> redis </p>
 <p> git </p>
-<p> mysql </p>
+<p> nginx </p>
 <p> jre </p>
 ## 做得不是很好，有更好的可以指出谢谢！
