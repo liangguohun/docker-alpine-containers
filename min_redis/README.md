@@ -24,7 +24,7 @@
 
 ## 运行一个实例
 
-<p>mkdir data</p>
+<p>mkdir ./data</p>
 <p>docker run -it --name redis -p 8888:6379 -v $PWD/redis.conf:/usr/local/redis/redis.conf -v $PWD/data:/data --restart=always --privileged=true -d liangguohun/min_redis:v1.0</p>
 
 ## 使用
