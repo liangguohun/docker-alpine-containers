@@ -29,7 +29,12 @@
 
 ## 使用
 <p>docker exec -it redis /bin/sh</p>
-<p>/usr/local/redis/src/redis-cli -h 127.0.0.1 -p 6379 -a foobared</p>
+<p>/usr/local/redis/src/redis-cli -p 6379 -a foobared</p>
+<p>127.0.0.1:6379> set test 123 EX 30</p>
+<p>OK</p>
+<p>127.0.0.1:6379> get test</p>
+<p>"123"</p>
+<p>127.0.0.1:6379></p> 
 
 ## 更小的install方式
 <p>等待调试</p>
